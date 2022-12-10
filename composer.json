@@ -1,0 +1,44 @@
+{
+  "name": "alireaza/php-form-data",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "description": "This is Form Data request handler for all methods.",
+  "keywords": [
+    "alireaza",
+    "Form-Data",
+    "Form",
+    "Data",
+    "Request"
+  ],
+  "homepage": "https://gitlab.com/alireaza/php-form-data",
+  "authors": [
+    {
+      "name": "Mohammad Ali Ghorbani Delijani",
+      "homepage": "https://www.alireaza.com",
+      "email": "alireazamagh@gmail.com"
+    }
+  ],
+  "funding": [
+    {
+      "type": "LinkedIn",
+      "url": "https://www.linkedin.com/in/alireaza"
+    }
+  ],
+  "require": {
+    "php": "^8.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "AliReaza\\Component\\HttpFoundation\\Request\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AliReaza\\Tests\\Component\\HttpFoundation\\Request\\": "tests/"
+    }
+  }
+}
